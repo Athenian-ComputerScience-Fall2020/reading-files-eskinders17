@@ -20,3 +20,4 @@ def avg_temp():
 if __name__ == '__main__':
     print(avg_temp())
 
+    
