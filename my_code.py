@@ -14,7 +14,7 @@ def avg_temp():
     average_list = sum_list/(list_length-1)
     average_list = round(average_list, 2)
 
-    return "end"
+    return average_list
 
 
 if __name__ == '__main__':
