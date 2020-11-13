@@ -26,9 +26,10 @@ print(line_list)
 with open('temps.txt') as file_object:
     line_list = file_object.readlines()
 list_length = len(line_list)
-for i in range(list_length):
+for i in range(list_length): 
     line_list[i] = line_list[i].rstrip()
 print(line_list)
+
 
 
 
